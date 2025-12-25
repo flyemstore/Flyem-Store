@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" /> 
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://flyemstore.me",
+      "logo": "https://flyemstore.me/logo.png"
+    }
+    </script>
+
+    <meta property="og:image" content="https://flyemstore.me/banner.jpg" /> 
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:title" content="FLYEM | Premium Streetwear" />
+    <meta property="og:description" content="Shop the latest oversized tees and hoodies." />
+    <meta property="og:url" content="https://flyemstore.me" />
+    <meta property="og:type" content="website" />
+
+    <script>
+      const canonicalUrl = 'https://flyemstore.me' + window.location.pathname;
+      let link = document.querySelector('link[rel="canonical"]');
+      if (!link) {
+          link = document.createElement('link');
+          link.rel = 'canonical';
+          document.head.appendChild(link);
+      }
+      link.href = canonicalUrl;
+    </script>
+
+    <title>FLYEM | Premium Streetwear</title>
+</head>
+  
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

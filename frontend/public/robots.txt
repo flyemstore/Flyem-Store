@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /profile
+Disallow: /order/
+Disallow: /checkout
+
+# Points Google to your new live sitemap
+Sitemap: https://flyemstore.me/sitemap.xml
